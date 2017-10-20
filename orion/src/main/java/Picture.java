@@ -389,7 +389,7 @@ public final class Picture implements ActionListener {
    /**
      * Opens a save dialog box when the user selects "Save As" from the menu.
      */
-    @Override
+//    @Override
     public void actionPerformed(ActionEvent e) {
         FileDialog chooser = new FileDialog(frame,
                              "Use a .png or .jpg extension", FileDialog.SAVE);
